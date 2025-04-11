@@ -6,7 +6,7 @@ The code can be compiled with the
 
     g++ L_OMP_org.c -fopenmp -o L_OMP_org -lm
 
-command. The input of the program should be az $W_{xyz}$ tensor of size ($n \times n \times n$), where the tensor is given in a file as a single row or column having $n \times n \times n$ entries, where the given entry stands for the $(x \times n \times n + y \times n + z)$-th element of the tensor. The program can be invoked with the
+command. The input of the program should be az $W_{xyz}$ tensor of size ($n \times n \times n$), where the tensor is given in a file as a single row or column having $n \times n \times n$ entries, where the given entry stands for the $(x + y \times n + z \times n \times n)$-th element of the tensor. The program can be invoked with the
 
     ./L_EAPM number_of_threads filename_of_tensor d
 
