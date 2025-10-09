@@ -1,5 +1,5 @@
 # Classical_bounds_EAPM
-This repository contains the implementation of calculating the $L_d$ norm of an $W_{xyz}$ witness tensor standing for the entanglement assisted prepare-and-measure scenario. The code was used to calculate the numerical results in the article ["Bound entanglement-assisted prepare-and-measure scenarios"](https://arxiv.org/abs/2502.08293) by I. Márton, E. Bene, and T. Vértesi. The code is written in C++ using OpenMP.
+This repository contains the implementation of calculating the $L_d$ norm of an $W_{xyz}$ witness tensor standing for the entanglement assisted prepare-and-measure scenario. The code was used to calculate the numerical results in the article ["Bound entanglement-assisted prepare-and-measure scenarios"](https://doi.org/10.1088/2058-9565/ae095f) by I. Márton, E. Bene, and T. Vértesi. The code is written in C++ using OpenMP.
 
 ## Usage:
 The code can be compiled with the
